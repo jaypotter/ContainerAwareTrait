@@ -1,0 +1,21 @@
+{
+    "name": "potter/container-aware-trait",
+    "description": "PHP Container Aware Trait",
+    "type": "library",
+    "require": {
+        "php": "^8.3"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Potter\\Container\\Aware\\": "src/Potter/Container/Aware/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Jay Potter",
+            "email": "j@ypotter.ca"
+        }
+    ],
+    "minimum-stability": "dev"
+}
