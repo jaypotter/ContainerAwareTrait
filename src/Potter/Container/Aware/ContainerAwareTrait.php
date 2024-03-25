@@ -36,6 +36,6 @@ trait ContainerAwareTrait
     }
     
     abstract public function has(string $id): bool;
-    abstract protected function with(string $id, mixed $entry): CloneableInterface;
-    abstract protected function without(string $id): CloneableInterface;
+    abstract protected function with(string $id, mixed $entry): static;
+    abstract protected function without(string $id): static;
 }
