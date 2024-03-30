@@ -7,6 +7,15 @@
         "potter/cloneable-interface": "dev-main",
         "psr/container": "^2.0@dev"
     },
+    "suggest": {
+        "potter/container-aware": "dev-main",
+        "potter/container-traits": "dev-main",
+        "potter/container": "dev-main",
+        "potter/aware-traits": "dev-main",
+        "potter/aware": "dev-main",
+        "potter/traits": "dev-main",
+        "potter/framework": "dev-main"
+    },
     "license": "MIT",
     "autoload": {
         "psr-4": {
