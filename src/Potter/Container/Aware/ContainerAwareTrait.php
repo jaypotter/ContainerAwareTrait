@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace Potter\Container\Aware;
 
-use \Potter\Cloneable\CloneableInterface, \Psr\Container\ContainerInterface;
+use \Psr\Container\ContainerInterface;
 
 trait ContainerAwareTrait 
 {
